@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reservations | Mirai</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="logo">MIRAI</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="reservation.html" class="active">Reservations</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <section class="page-hero" style="background-image: url('https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1600&q=80');">
+    <div class="page-hero-content reveal"><h1>Book an Experience</h1></div>
+  </section>
+  <section class="section">
+    <div class="container reservation-layout reveal">
+      <div>
+        <div id="reservationFormContainer">
+          <form id="reservationForm" class="reservation-form" action="https://formspree.io/f/FORM_ID" method="POST">
+            <div class="form-group"><label for="name">Name *</label><input type="text" id="name" name="name" required></div>
+            <div class="form-group"><label for="email">Email *</label><input type="email" id="email" name="email" required></div>
+            <div class="form-group"><label for="phone">Phone *</label><input type="tel" id="phone" name="phone" required></div>
+            <div class="form-group"><label for="date">Date *</label><input type="date" id="date" name="date" required></div>
+            <div class="form-group"><label for="time">Time *</label><input type="time" id="time" name="time" required></div>
+            <div class="form-group"><label for="guests">Guests *</label><select id="guests" name="guests" required><option value="" disabled selected>Select</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option></select></div>
+            <button type="submit" class="btn btn-primary">Reserve Table</button>
+          </form>
+        </div>
+        <div id="confirmationMsg" class="confirmation-msg"><h3>Thank You</h3><p>Your reservation request has been received. We will confirm via WhatsApp.</p></div>
+      </div>
+      <div class="reservation-info">
+        <h3>Details</h3>
+        <p>📍 Boulevard 35, Seef</p>
+        <p>🕒 Daily 18:00 – 01:00</p>
+        <p>📞 <a href="https://wa.me/97317783030" target="_blank">+973 1778 3030</a></p>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-bottom"><p>&copy; 2025 <span class="accent">Mirai</span>.</p></div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
