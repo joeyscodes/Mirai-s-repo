@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mirai Japanese Restaurant | Bahrain</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+</head>
+<body>
+  <div id="loader"><div class="spinner"></div></div>
+  
+  <nav class="navbar">
+    <a href="index.html" class="logo">MIRAI</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="reservation.html">Reservations</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="reservation.html" class="nav-cta">Book Now</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
+
+  <section class="hero">
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-label">Seef District, Bahrain</p>
+      <h1 class="hero-title">未来の味<br>The Future of Flavour</h1>
+      <p class="hero-subtitle">Mirai redefines Japanese cuisine with cutting‑edge technique and timeless elegance. Enter a world where tradition meets tomorrow.</p>
+      <div class="hero-buttons">
+        <a href="reservation.html" class="btn btn-primary">Reserve Your Table</a>
+        <a href="menu.html" class="btn btn-outline">Explore Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section about-teaser">
+    <div class="container">
+      <div class="about-grid reveal">
+        <div class="about-text">
+          <span class="section-label">Our Philosophy</span>
+          <h2>未来 (Mirai) is Now</h2>
+          <p>Mirai translates to "future," and every dish we serve is a step into a new culinary world. Our chefs masterfully blend ancient Japanese techniques with modern molecular gastronomy. The result? Plates that are as breathtaking visually as they are sublime to taste.</p>
+          <p>Nestled in the vibrant Seef district, our space is a temple of dark luxury — illuminated by neon calligraphy, wrapped in shadow, and alive with the energy of Tokyo's hidden lounges.</p>
+          <a href="about.html" class="btn btn-outline">Our Story</a>
+        </div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&q=80" alt="Mirai interior">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal"><span class="section-label">Signature Creations</span><h2>Chef's Selection</h2></div>
+      <div class="menu-grid">
+        <div class="menu-card reveal">
+          <img src="https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=600&q=80" alt="Mirai Maki">
+          <div class="menu-card-content"><h4>Mirai Future Maki</h4><p>Toro, caviar, gold leaf, and yuzu-soy pearls.</p><span class="price">18 BHD</span></div>
+        </div>
+        <div class="menu-card reveal">
+          <img src="https://images.unsplash.com/photo-1540648044-f01d4b2427c2?w=600&q=80" alt="Wagyu Teppanyaki">
+          <div class="menu-card-content"><h4>A5 Wagyu Teppanyaki</h4><p>Seared at your table with truffle salt and wasabi.</p><span class="price">35 BHD</span></div>
+        </div>
+        <div class="menu-card reveal">
+          <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=600&q=80" alt="Neon Sake">
+          <div class="menu-card-content"><h4>Crystal Sake Drop</h4><p>Premium Junmai Daiginjo with an edible cherry blossom sphere.</p><span class="price">12 BHD</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal"><span class="section-label">Ambiance</span><h2>Inside Mirai</h2></div>
+      <div class="gallery-grid">
+        <img class="reveal" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&q=80" alt="Dining area">
+        <img class="reveal" src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600&q=80" alt="Sushi bar">
+        <img class="reveal" src="https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=600&q=80" alt="Neon lights">
+        <img class="reveal" src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=600&q=80" alt="Chef">
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal"><span class="section-label">Guest Impressions</span><h2>The Critics</h2></div>
+      <div class="testimonial-cards">
+        <div class="testimonial-card reveal"><p class="quote">"Mirai is not just a restaurant; it's a portal. The Future Maki is the single best bite I've had this decade."</p><p class="author">— Layla A., Gault&Millau</p></div>
+        <div class="testimonial-card reveal"><p class="quote">"The dark, seductive atmosphere combined with the explosive wagyu is an experience that will haunt my tastebuds forever."</p><p class="author">— David C., TimeOut</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section reservation-cta">
+    <div class="container reveal">
+      <span class="section-label">Join the Future</span>
+      <h2>Experience Mirai Tonight</h2>
+      <p>Secure your seat at the most exclusive Japanese dining experience in Bahrain.</p>
+      <a href="reservation.html" class="btn btn-primary">Reserve Now</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-col"><h4>Mirai</h4><p>Boulevard 35, Seef, Area, Bahrain</p></div>
+      <div class="footer-col"><h4>Hours</h4><p>Daily: 18:00 – 01:00</p></div>
+      <div class="footer-col"><h4>Contact</h4><p><a href="https://wa.me/97317783030" target="_blank">+973 1778 3030</a></p><p>info@mirai.bh</p></div>
+      <div class="footer-col"><h4>Follow</h4><div class="social-links"><a href="#" aria-label="Instagram">📷</a><a href="#" aria-label="Facebook">📘</a></div></div>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2025 <span class="accent">Mirai</span>. The Future of Flavour.</p></div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+  </html>
